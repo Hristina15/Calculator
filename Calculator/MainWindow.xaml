@@ -1,0 +1,72 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Moner" Grid.Row="1" Grid.Column="0"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="7" FontSize="15" Click="Moner_Click"></Button>
+        <Button x:Name="Violet" Grid.Row="1" Grid.Column="1"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="8" FontSize="15" Click="Violet_Click"></Button>
+        <Button x:Name="Lilia" Grid.Row="1" Grid.Column="2"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="9" FontSize="15" Click="Lilia_Click"></Button>
+        <Button x:Name="Roza" Grid.Row="1" Grid.Column="3"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="+" FontSize="15" Click="Roza_Click"></Button>
+        <Button x:Name="Romashka" Grid.Row="2" Grid.Column="0"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="4" FontSize="15" Click="Romashka_Click"></Button>
+        <Button x:Name="Orhidea" Grid.Row="2" Grid.Column="1"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="5" FontSize="15" Click="Orhidea_Click"></Button>
+        <Button x:Name="Landash" Grid.Row="2" Grid.Column="2"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="6" FontSize="15" Click="Landash_Click"></Button>
+        <Button x:Name="Minus" Grid.Row="2" Grid.Column="3"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="-" FontSize="15" Click="Minus_Click"></Button>
+        <Button x:Name="Trava" Grid.Row="3" Grid.Column="0"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="1" FontSize="15" Click="Trava_Click"></Button>
+        <Button x:Name="Derevo" Grid.Row="3" Grid.Column="1"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="2" FontSize="15" Click="Derevo_Click"></Button>
+        <Button x:Name="Skuns" Grid.Row="3" Grid.Column="2"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="3" FontSize="15" Click="Skuns_Click"></Button>
+        <Button x:Name="Star" Grid.Row="3" Grid.Column="3"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="*" FontSize="15" Click="Star_Click"></Button>
+        <Button x:Name="Bereza" Grid.Row="4" Grid.Column="0"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="0" FontSize="15" Click="Bereza_Click"></Button>
+        <Button x:Name="Dub" Grid.Row="4" Grid.Column="1"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Grid.ColumnSpan="2"
+Content="=" FontSize="15" Click="Dub_Click"></Button>
+        <Button x:Name="Karta" Grid.Row="4" Grid.Column="4"
+HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+Content="/" FontSize="15" Click="Karta_Click"></Button>
+        <TextBlock x:Name="inputTextBlock" Grid.Row="0" Grid.Column="0"
+Grid.ColumnSpan="4" FontSize="30" TextAlignment="Right"></TextBlock>
+    </Grid>
+</Window>
